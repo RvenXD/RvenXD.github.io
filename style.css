@@ -1,11 +1,11 @@
 @font-face {
   font-family: '04b';
-  src: url('font/04B_30__.TTF');
+  src: url('04B_30__.TTF');
 }
 
 @font-face {
   font-family: 'poppins';
-  src: url('font/Poppins-Regular.ttf');
+  src: url('Poppins-Regular.ttf');
 }
 
 body{
