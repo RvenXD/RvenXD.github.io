@@ -1,0 +1,254 @@
+@font-face {
+  font-family: '04b';
+  src: url('font/04B_30__.TTF');
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('font/Poppins-Regular.ttf');
+}
+
+body{
+  background-color: antiquewhite;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  border-bottom: solid 2px #B29877;
+  align-items: center;
+  background-color: tan;
+  margin: 0;
+  width: 100%;
+  padding: 0 0 0 6px;
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+  font-family: '04B';
+  font-size: 26px;
+}
+
+.item {
+  border: solid #B29877; 
+  background-color: antiquewhite;
+  margin : 10px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.p1 {
+  width : 240px;
+  margin-left: auto;
+  text-align: left;
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+.p2 {
+  text-align: center;
+}
+
+.p3 {
+  text-align: left;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box img {
+  border: solid black;
+  width: 100px;
+}
+
+.lasan {
+  font-family: '04B';
+  font-size: 16px;
+}
+
+.gokil {
+  font-family: '04B';
+  font-size: 16px;
+}
+
+.mainan {
+  width: 300px;
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+.tertarik{
+  font-family: 'poppins';
+  font-size: 10px;
+}
+
+.asik {
+  display: flex;
+  text-align: center;
+  font-family: '04B';
+  font-size: 16px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  border: 2px solid black;
+  border-radius: 0 999px 999px 0;
+  padding: 10px 20px;
+  width: 200px;
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.card img {
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.kartu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  border: 2px solid black;
+  border-radius: 0 999px 999px 0;
+  padding: 10px 20px;
+  width: 200px;
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.kartu img {
+  width: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.kartu:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.sosial {
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+h2 {
+  font-family: '04B';
+  font-size: 16px;
+}
+
+.konten {
+  margin-left: 6px;
+}
+
+.rx {
+  width : 240px;
+  margin-left: auto;
+  text-align: left;
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+.hobi {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hobi img{
+  border: solid black;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.ana {
+  width : 240px;
+  margin-right: auto;
+  text-align: right;
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+.hob2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row-reverse;
+}
+
+.hob2 img{
+  border-radius: 10px;
+  margin-right: 6px;
+  border: solid black;
+  width: 100px;
+}
+
+.gawain {
+  width : 240px;
+  margin-left: auto;
+  text-align: left;
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+.mochin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mochin img{
+  border: solid black;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.my {
+  width : 240px;
+  margin-right: auto;
+  text-align: right;
+  font-size: 10px;
+  font-family: 'poppins';
+}
+
+.haha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row-reverse;
+}
+
+.haha img{
+  border-radius: 10px;
+  margin-right: 6px;
+  border: solid black;
+  width: 100px;
+}
